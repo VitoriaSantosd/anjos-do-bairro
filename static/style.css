@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 100px;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
     font-size: 32px;
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .navbar a {
@@ -55,4 +55,32 @@ body {
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+/*quem somos*/
+.qs-container {
+    /*width: 100vw;*/
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.qs-box {
+    width: 300px;
+    height: 420px;
+}
+
+.qs-box h3 {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.qs-box p {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
 }

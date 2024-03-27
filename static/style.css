@@ -14,7 +14,7 @@ body {
 
 /*navbar*/
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,11 +26,9 @@ body {
     z-index: 100;
 }
 
-.logo {
-    font-size: 32px;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 600;
+.logo{
+    width: auto; 
+    height: auto;
 }
 
 .navbar a {
@@ -84,6 +82,10 @@ body {
     font-weight: 200;
 }
 
+section{
+    margin: 50px;
+    margin-top: 0;
+}
 
 /* EQEV */
 .texts{
@@ -91,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
     padding-left: 2.5%;
 }
 
@@ -99,15 +101,17 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
+
 }
 .texts .row h3{
     color: #000000;
-    font-size: 56px;
+    font-size: 40px;
     margin-top: 0;
+    align-items: center;
 }
 .texts .row p{
     color: #000000;
-    font-size: 24px;
+    font-size: 18px;
     margin-right: 1%;
 }
 

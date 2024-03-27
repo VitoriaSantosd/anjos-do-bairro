@@ -91,6 +91,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     padding-left: 2.5%;
 }
 
@@ -121,6 +122,19 @@ body {
 .imagem img{
     max-width: 100%;
     border-radius: 10px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video h3{
+    color: #F6F8F7;
+    font-size: 48px;
+    margin-top: 0;
 }
  /* Responsive layout - makes a one column layout instead of a two-column layout */
  @media (max-width: 800px) {

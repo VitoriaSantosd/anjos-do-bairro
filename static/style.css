@@ -150,20 +150,21 @@ section{
     display: flex;
     position:relative;
 	margin: 20px 0 0 0;
+    
 }
 .verso{
-    position: relative;
+    
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 50px;
+    padding-left: 150px;
 }
 .pm{
     margin:5px;
     display: felex;
-    padding: 5px;
     display: flex;
     justify-content: center;
-    padding: 2.5rem;
+    padding-left:50px;
 }
 
 

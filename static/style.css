@@ -143,6 +143,18 @@ section{
     font-size: 38px;
     margin-top: 0;
 }
+
+.poema{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
  /* Responsive layout - makes a one column layout instead of a two-column layout */
  @media (max-width: 800px) {
     .flex-container {

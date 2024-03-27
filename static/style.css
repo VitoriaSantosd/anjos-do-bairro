@@ -9,7 +9,7 @@
 
 body {
     background: #FFF6EC;
-    background: linear-gradient(90deg, #FFF6EC 35%,#F6F8F7);
+    background: linear-gradient(90deg, #FFF6EC 45%,#F6F8F7);
 }
 
 /*navbar*/
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     padding: 10px 100px;
-    background: linear-gradient(90deg, #FFF6EC 35%,#F6F8F7);
+    background: linear-gradient(90deg, #FFF6EC 45%,#F6F8F7);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +56,7 @@ body {
 
 /*quem somos*/
 .qs-container {
-    /*width: 100vw;*/
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -82,12 +82,14 @@ body {
     font-weight: 200;
 }
 
+
+/* EQEV */
 section{
-    margin: 50px;
+    margin: 70px;
     margin-top: 0;
 }
 
-/* EQEV */
+
 .texts{
     position: relative;
     display: flex;
@@ -104,10 +106,11 @@ section{
 
 }
 .texts .row h3{
+    text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 35px;
+	font-weight: normal;
     color: #000000;
-    font-size: 40px;
-    margin-top: 0;
-    align-items: center;
 }
 .texts .row p{
     color: #000000;
@@ -137,7 +140,7 @@ section{
 
 .video h3{
     color: #000000;
-    font-size: 48px;
+    font-size: 38px;
     margin-top: 0;
 }
  /* Responsive layout - makes a one column layout instead of a two-column layout */

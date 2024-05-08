@@ -1,57 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 body {
-    background: #FFF6EC;
-    background: linear-gradient(90deg, #FFF6EC 45%,#F6F8F7);
+  background: #FFF6EC;
+  font-family: 'Poppins';
 }
 
-/*navbar*/
-.header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 100px;
-    background: linear-gradient(90deg, #FFF6EC 45%,#F6F8F7);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+.navbar {
+  background-color: transparent;
 }
 
-.logo{
-    width: auto; 
-    height: auto;
+.navbar-brand {
+    color: black;
 }
 
-.navbar a {
-    font-size: 18px;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 20px;
+.navbar-brand:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #252525;
 }
 
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #000000;
-    transition: .3s;
+.navbar-brand img {
+  max-width: 70px;
+  height: auto;
+  margin-right: 10px;
 }
 
-.navbar a:hover::before {
-    width: 100%;
+.navbar-nav .nav-link {
+  color: #000;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+  border: 1px solid #000; 
+  background-color: transparent;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.navbar-nav .nav-link.active:hover{
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #252525;
+}
+
+.btn-primary {
+  border: 1px solid #000; 
+  background-color: transparent;
+  border-radius: 0.5rem;
+  color: black;
+  
+}
+
+.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #252525;  
+  color: #252525;
+}
+
+.jumbotron {
+  color: #000;
+  text-align: center;
+  padding: 100px 0;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
 
 /*quem somos*/
@@ -118,18 +128,6 @@ section{
     margin-right: 1%;
 }
 
-.imagem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 20%;
-    margin-right: 1%;
-}
-
-.imagem img{
-    max-width: 100%;
-    border-radius: 10px;
-}
 
 .video{
     display: flex;
